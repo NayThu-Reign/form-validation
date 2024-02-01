@@ -1,0 +1,122 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border: none;
+    background-image: url("../img/bg-intro-desktop.png");
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%) ;
+}
+.slide {
+    padding-top: 300px;
+}
+.title{
+    padding-left: 100px;
+}
+.title h3 {
+    color: white;
+    line-height: 25px;
+}
+
+.body {
+    margin-top: 25px;
+}
+.body p {
+    font-size: 12px;
+    color: white;
+    line-height: 6px;
+}
+
+.slide2 {
+    padding-top: 150px;
+}
+
+.offer {
+    background: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    border: none;
+    width: 430px;
+    height: 40px;
+}
+.offer p {
+    text-align: center;
+    padding-top: 6px;
+    color: white;
+}
+.offer p span {
+    color: hsl(246, 25%, 77%);
+}
+
+.register {
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: white;
+    width: 430px;
+}
+
+input {
+    border: 1px solid hsl(248, 32%, 49%);
+    width: 360px;
+    height: 42px;
+    margin-left: 30px;
+    padding-left: 20px;
+    position: relative;
+}
+
+
+.warning {
+    font-size: 12px;
+    color: hsl(0, 100%, 74%) ;
+    margin-left: 240px;
+    margin-top: 3px;
+}
+.warning1 {
+    font-size: 12px;
+    color: hsl(0, 100%, 74%) ;
+    margin-left: 180px;
+    margin-top: 3px;
+}
+.image {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 340px;
+    z-index: 2;
+}
+
+#first-error, #last-error, #email-error, #password-error {
+    display: none;
+}
+#email-error-msg, #password-error-msg {
+    display: none;
+}
+#password-length-msg, #password-max-length-msg, #email-valid-msg {
+    display: none;
+}
+
+
+.trial {
+    width: 360px;
+    height: 43px;
+    text-align: center;
+    color: white;
+    margin-left: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+}
+
+.click {
+    width: 360px;
+    margin-left: 30px;
+    padding-left: 35px;    
+}
+.click p {
+    font-size: 10px;
+    color: hsl(246, 25%, 77%);
+}
+.click p span {
+    color: hsl(0, 97%, 50%);
+}
